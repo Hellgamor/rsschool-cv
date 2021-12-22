@@ -13,12 +13,10 @@ I live and work in St. Petersburg. For 6 years I worked as an economist in a ban
 3. Git
 ## Example code
 ``` 
-<body>
-    <article>
-        <p><span class="text-block">пример</span></p>
-    </article>
-    <script src="script.js"></script>
-</body>
+function multiply(a, b){
+  return a * b
+}
+
 ```
 ## Education
 * 2008 - banking specialist - specialized secondary education
