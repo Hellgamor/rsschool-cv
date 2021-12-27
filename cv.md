@@ -12,11 +12,10 @@ I live and work in St. Petersburg. For 6 years I worked as an economist in a ban
 2. Basics CSS
 3. Git
 ## Example code
-``` 
+```
 function multiply(a, b){
   return a * b
 }
-
 ```
 ## Education
 * 2008 - banking specialist - specialized secondary education
