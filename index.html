@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://rs.school/images/rs_school_js.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    test
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main class="main-container">
+        <section class="section" id="profile">
+            <h1 class="section-title">Olga Morozova</h1>
+            <img class="photo" src="assets/img/Photo.jpg" alt="Ольга Морозова">
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li>Phonenumber: +7 921 409 38 47</li>
+                <li>Email: moros0307@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/Hellgamor">Hellgamor</a></li>
+                <li>Discord: @Hellgamor</li>
+            </ul>
+          </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>I live and work in St. Petersburg. For 6 years I worked as an economist in a bank, currently I work as a specialist in a software development organization. I really want to be a front-end developer, learn new things and move forward.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ol>
+                <li>Basics HTML</li>
+                <li>Basics CSS</li>
+                <li>Git</li>
+            </ol>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Example Code</h2>
+            <div class="code"><pre><code>.section {
+        width: 50%;
+        font-size: 20px ;
+        padding: 10px;
+        margin: 0;
+            }</code></pre>
+            </div>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>2016 - economist - higher education</p>
+            <p>2008 - banking specialist - specialized secondary education</p>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <p>HTML, CSS, JS Tutorials</p>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <p>English A1</p>
+        </section>
+   </main>
+    <footer>
+        <div class="footer-container">
+            <div class="link"><a href="https://github.com/Hellgamor">My GitHub</a></div>
+            <div>&copy;2022</div>
+            <div>
+                <a href="https://rs.school/js/" class="rss"><img src="/rsschool-cv/assets/favicon.ico" alt="logo"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
